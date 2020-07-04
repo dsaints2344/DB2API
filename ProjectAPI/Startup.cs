@@ -29,7 +29,7 @@ namespace ProjectAPI
         {
 
             services.AddDbContext<SchoolContext>(opt => 
-            opt.UseSqlServer(@"Server=LAPTOP-623BP1AE;Database=SchoolDB;Trusted_Connection=True"));
+            opt.UseSqlServer(@"Server=DDELOSSANTOS;Database=SchoolDB;Trusted_Connection=True"));
             services.AddControllers();
         }
 
